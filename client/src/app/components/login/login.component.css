@@ -1,0 +1,9 @@
+form input{
+    padding: 8px;
+    width: 60%;
+}
+.button{
+    background-color: brown;
+    color: white;
+    padding: 15px;
+}

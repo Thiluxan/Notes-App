@@ -1,0 +1,20 @@
+.note-card{
+    background-color: rgb(63, 70, 63);
+    color: rgb(228, 216, 216);
+    border: 2px solid beige;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.note-card button{
+    width: 80px;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+.note-card button .delete{
+    background-color: red;
+}

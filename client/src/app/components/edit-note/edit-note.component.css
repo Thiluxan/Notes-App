@@ -1,0 +1,13 @@
+form input{
+    padding: 8px;
+    width: 60%;
+}
+form textarea{
+    width: 60%;
+    height: 100px;
+}
+.button{
+    background-color: brown;
+    color: white;
+    padding: 15px;
+}

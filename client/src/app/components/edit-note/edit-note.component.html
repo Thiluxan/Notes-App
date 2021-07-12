@@ -1,0 +1,18 @@
+<div>
+    <h1>Edit Note</h1>
+    <form (ngSubmit)="onSubmit()">
+        <div>
+            <label><h4>Title</h4></label>
+            <input type="text" name="title" [(ngModel)]="title"/>
+        </div><br/>
+        <div>
+            <label><h4>Author</h4></label>
+            <input type="text" name="author" [(ngModel)]="author"/>
+        </div><br/>
+        <div>
+            <label><h4>Content</h4></label>
+            <textarea name="content" [(ngModel)]="content"></textarea>
+        </div><br/>
+        <input type="submit" value="Update" class="button"/>
+    </form>
+</div>

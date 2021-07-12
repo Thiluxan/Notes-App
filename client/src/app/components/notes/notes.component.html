@@ -1,0 +1,10 @@
+<h2>My Notes</h2>
+<div>
+    <div class="note-card" *ngFor="let note of notes">
+        <h2>{{note.title}}</h2>
+        Author: {{note.author}}
+        <button [routerLink]="['/note']" routerLinkActive="router-link-active" [state]="{note:note}">View</button>
+        <button (click)="deleteNote(note)" style="background-color: red;">Delete</button>
+        <button [routerLink]="['/note/edit']" routerLinkActive="router-link-active" [state]="{note:note}" style="background-color: green;">Edit</button>
+    </div>
+</div>
